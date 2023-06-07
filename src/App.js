@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+
+import React, { useState } from 'react'
+import profile from './images/profile.jpg';
+
+import About from './components/About';
+import Navbar from './components/Navbar';
+import TextForm from './TextForm';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  const [mode,setMode] = useState('light');
+  const toggleMode = ()=>{
+      if(mode === 'light'){
+        setMode('dark')
+        document.body.style.backgroundColor = "#082844"
+      }else{
+        setMode('light')
+        document.body.style.backgroundColor = "white"
+      }
+     
+  }
+  return ( 
+    
+    <>
+      <BrowserRouter>
+      <Navbar logo="Text Analyser" mode={mode} toggleMode={toggleMode}/>
+      {/* <TextForm heading="Enter the text to analyse: " mode={mode}/> */}
+         <Routes>
+          <Route exact path="/about" element={<About imgSrc={profile}/>} /> 
+          {/* exact is usedto get exact path sometimes there are folders like /about-->componentX and /about/home-->componentY and if we want component from /about/home it will mistakenly will render from /about thats why */}
+          
+          < Route exact path="/"
+            element= {<TextForm heading="Enter the text to analyse: " mode={mode}/>} /> 
+          </Routes>
+          </BrowserRouter>
+    
+    
+
+    </>
   );
 }
 

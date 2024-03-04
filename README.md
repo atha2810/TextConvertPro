@@ -1,5 +1,5 @@
 <div align="center"><h1> TextConvertPro </h1> </div>
-<div align="center"><h2> First go to About then comeback to Unlock the app </h2> </div>
+<div align="center"><h2> Click the logo to get Started </h2> </div>
 
 # About
 A feature-rich Text Editor utilizing ReactJS & Styled the Text Editor with CSS and Bootstrap5, ensuring a modern and visually appealing user interface.

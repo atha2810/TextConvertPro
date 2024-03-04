@@ -14,7 +14,7 @@ Features :
 - dynamic live preview feature, providing users with a real-time view of the text they write
 - Included a time tracking feature to display the estimated time required to read the given text
 
-## Website is Live : [https://atha2810.github.io/TextConvertPro/](https://atha2810.github.io)
+## Website is Live : [https://atha2810.github.io/TextConvertPro/](https://atha2810.github.io/TextConvertPro)
 
 
 # Tech Stack

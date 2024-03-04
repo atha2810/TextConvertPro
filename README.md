@@ -2,13 +2,20 @@
 <div align="center"><h2> <img src=Ticon.png width="32px"/> First go to About then comeback to Unlock the app </h2> </div>
 
 # About
-> Text Editor Created Using ReactJS<br> > Implemented Dark and Light Mode using State management<br> > Styled With CSS and BootStrap5
+A feature-rich Text Editor utilizing ReactJS & Styled the Text Editor with CSS and Bootstrap5, ensuring a modern and visually appealing user interface.
 
-## Website is Live : [https://atha2810.github.io/TextAnalyser/](https://atha2810.github.io/TextAnalyser/)
+Features :
+- repeat given text multiple times
+- Light and Dark modes
+- delete specified text
+- capitalize text
+- convert text to lowercase
+- Integrated word and letter counting functionalities to analyze the input text effectively
+- dynamic live preview feature, providing users with a real-time view of the text they write
+- Included a time tracking feature to display the estimated time required to read the given text
 
-# Screenshots
-![screenshot](Light.png)<h2>Light Mode👆</h2>
-![screenshot](Dark.png)<h2>Dark Mode👆</h2>
+## Website is Live : [https://atha2810.github.io/TextAnalyser/](https://atha2810.github.io/TextConvertPro/)
+
 
 # Tech Stack
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)

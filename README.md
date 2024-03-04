@@ -1,5 +1,5 @@
-<div align="center"><h1> <img src=Ticon.png width="32px"/> TextConvertPro </h1> </div>
-<div align="center"><h2> <img src=Ticon.png width="32px"/> First go to About then comeback to Unlock the app </h2> </div>
+<div align="center"><h1> TextConvertPro </h1> </div>
+<div align="center"><h2> First go to About then comeback to Unlock the app </h2> </div>
 
 # About
 A feature-rich Text Editor utilizing ReactJS & Styled the Text Editor with CSS and Bootstrap5, ensuring a modern and visually appealing user interface.
@@ -14,7 +14,7 @@ Features :
 - dynamic live preview feature, providing users with a real-time view of the text they write
 - Included a time tracking feature to display the estimated time required to read the given text
 
-## Website is Live : [https://atha2810.github.io/TextAnalyser/](https://atha2810.github.io/TextConvertPro/)
+## Website is Live : [https://atha2810.github.io/TextConvertPro/](https://atha2810.github.io/TextConvertPro/)
 
 
 # Tech Stack

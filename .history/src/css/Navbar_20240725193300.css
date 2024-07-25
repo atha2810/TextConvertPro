@@ -1,0 +1,53 @@
+/* Navbar Styles */
+.navbar {
+  border-bottom: 2px solid #eaeaea; /* Modern border for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.btn {
+  background-color: #007bff; /* Primary button color */
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar-toggler {
+  border-color: #007bff; /* Color of the toggler */
+}
+
+.navbar-toggler-icon {
+  background-image: linear-gradient(
+    to right,
+    #007bff,
+    #0056b3
+  ); /* Gradient effect */
+}
+
+.form-check-label {
+  color: #333; /* Switch label color */
+}

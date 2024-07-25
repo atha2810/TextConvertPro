@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/css/Navbar.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1721916129605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721916178028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,16 +3,10 @@\n   border-bottom: 2px solid #eaeaea; /* Modern border for the navbar */\r\n   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */\r\n }\r\n \r\n-.navbar-brand {\r\n-  display: flex;\r\n-  align-items: center;\r\n-  font-size: 1.5rem;\r\n-  color: #333;\r\n-  transition: color 0.3s ease;\r\n-}\r\n \r\n+\r\n .navbar-brand:hover {\r\n   color: #007bff; /* Change color on hover */\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1721916196903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n   color: #007bff; /* Change color on hover */\r\n }\r\n \r\n .btn {\r\n-  background-color: #007bff; /* Primary button color */\r\n+ /* Primary button color */\r\n   border: none;\r\n   color: white;\r\n   transition: background-color 0.3s ease;\r\n }\r\n"
+                }
+            ],
+            "date": 1721916129605,
+            "name": "Commit-0",
+            "content": "/* Navbar Styles */\r\n.navbar {\r\n    border-bottom: 2px solid #eaeaea; /* Modern border for the navbar */\r\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */\r\n  }\r\n  \r\n  .navbar-brand {\r\n    display: flex;\r\n    align-items: center;\r\n    font-size: 1.5rem;\r\n    color: #333;\r\n    transition: color 0.3s ease;\r\n  }\r\n  \r\n  .navbar-brand:hover {\r\n    color: #007bff; /* Change color on hover */\r\n  }\r\n  \r\n  .btn {\r\n    background-color: #007bff; /* Primary button color */\r\n    border: none;\r\n    color: white;\r\n    transition: background-color 0.3s ease;\r\n  }\r\n  \r\n  .btn:hover {\r\n    background-color: #0056b3; /* Darker color on hover */\r\n  }\r\n  \r\n  .nav-link {\r\n    color: #333;\r\n    transition: color 0.3s ease;\r\n  }\r\n  \r\n  .nav-link:hover {\r\n    color: #007bff; /* Change color on hover */\r\n  }\r\n  \r\n  .navbar-toggler {\r\n    border-color: #007bff; /* Color of the toggler */\r\n  }\r\n  \r\n  .navbar-toggler-icon {\r\n    background-image: linear-gradient(to right, #007bff, #0056b3); /* Gradient effect */\r\n  }\r\n  \r\n  .form-check-label {\r\n    color: #333; /* Switch label color */\r\n  }\r\n  "
+        }
+    ]
+}

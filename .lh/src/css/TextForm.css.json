@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/css/TextForm.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1721916249701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1721916249701,
+            "name": "Commit-0",
+            "content": "/* TextForm Styles */\r\n.text-form-container {\r\n    padding: 2rem;\r\n    border-radius: 10px;\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card effect */\r\n    background: #f8f9fa; /* Light background */\r\n  }\r\n  \r\n  .text-form-heading {\r\n    font-size: 1.75rem;\r\n    color: #007bff;\r\n    margin-bottom: 1rem;\r\n  }\r\n  \r\n  .text-form-input {\r\n    border: 1px solid #ced4da;\r\n    border-radius: 5px;\r\n    padding: 0.5rem 1rem;\r\n    width: 100%;\r\n    box-sizing: border-box;\r\n    transition: border-color 0.3s ease;\r\n  }\r\n  \r\n  .text-form-input:focus {\r\n    border-color: #007bff;\r\n    outline: none;\r\n  }\r\n  \r\n  .text-form-button {\r\n    background-color: #007bff;\r\n    border: none;\r\n    color: white;\r\n    padding: 0.75rem 1.5rem;\r\n    border-radius: 5px;\r\n    font-size: 1rem;\r\n    cursor: pointer;\r\n    transition: background-color 0.3s ease;\r\n  }\r\n  \r\n  .text-form-button:hover {\r\n    background-color: #0056b3;\r\n  }\r\n  "
+        }
+    ]
+}

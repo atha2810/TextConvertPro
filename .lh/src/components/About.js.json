@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/About.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1721916387853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721916394055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+import \"./\"\r\n \r\n-\r\n export default function About(props) {\r\n   return (\r\n     <div\r\n       className=\"container mx-3\"\r\n"
+                },
+                {
+                    "date": 1721916400892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import \"./\"\r\n+import \"../css/A\"\r\n \r\n export default function About(props) {\r\n   return (\r\n     <div\r\n"
+                }
+            ],
+            "date": 1721916387853,
+            "name": "Commit-0",
+            "content": "\r\n\r\nexport default function About(props) {\r\n  return (\r\n    <div\r\n      className=\"container mx-3\"\r\n      style={{ display: \"block\", marginLeft: \"500px\" }}\r\n    >\r\n      <h1 style={{ color: props.mode === \"dark\" ? \"white\" : \"green\" }}>\r\n        Welcome to TextConvertPro\r\n      </h1>\r\n      <div\r\n        style={{\r\n          color: props.mode === \"ligh\" ? \"black\" : \"white\",\r\n        }}\r\n      >\r\n        <h4\r\n          style={{\r\n            color: \"grey\",\r\n          }}\r\n        >\r\n          A feature-rich Text Editor utilizing <b>ReactJS</b> & Styled the Text\r\n          Editor with <b>CSS</b> and <b>Bootstrap5</b>, ensuring a modern and\r\n          visually appealing user interface.\r\n        </h4>\r\n        <br />{\" \"}\r\n        <b\r\n          style={{\r\n            color: \"grey\",\r\n          }}\r\n        >\r\n          Features :\r\n        </b>\r\n        <br />\r\n        <ul\r\n          style={{\r\n            color: \"darkgrey\",\r\n            textShadow: \" 0 0 70px #0f0\",\r\n          }}\r\n        >\r\n          <li>repeat given text multiple times</li>\r\n          <li> delete specified text</li> <li>capitalize text </li>\r\n          <li>convert text to lowercase</li>\r\n          <li>\r\n            Integrated word and letter counting functionalities to analyze the\r\n            input text effectively\r\n          </li>\r\n          <li>\r\n            dynamic live preview feature, providing users with a real-time view\r\n            of the text they write\r\n          </li>\r\n          <li>\r\n            Included a time tracking feature to display the estimated time\r\n            required to read the given text\r\n          </li>\r\n        </ul>\r\n      </div>\r\n      <h4\r\n        style={{\r\n          color: \"#fff\" /* Text color */,\r\n          textShadow: \"0 0 20px #00f\",\r\n          paddingLeft: \"40px\",\r\n        }}\r\n      >\r\n        Meet the developer\r\n      </h4>\r\n      <div style={{ display: \"flex\" }}>\r\n        <img\r\n          src={props.imgSrc}\r\n          style={{\r\n            height: \"300px\",\r\n            width: \"300px\",\r\n            borderRadius: \"150px 150px 150px 150px\",\r\n          }}\r\n          alt=\"developer\"\r\n        ></img>\r\n        <h4\r\n          className=\"mx-5\"\r\n          style={{\r\n            color: \"#fff\" /* Text color */,\r\n            textShadow: \"0 0 20px #00f\",\r\n          }}\r\n        >\r\n          Hey there! I'm Atharva Lakhamade, a computer whiz with a passion for\r\n          creating awesome things. I've got a whole toolbox of technical skills,\r\n          from Java to HTML, CSS, JavaScript and ,NextJS ,MERN(MongoDB,\r\n          ExpressJS, ReactJS, NOdeJS) stack. I have a natural talent for\r\n          transforming ideas into reality with a touch of uniqueness and\r\n          practicality. Whether it's building an App or a stylish Website, I\r\n          love solving problems and adding my creative touch. I'm a team player\r\n          with a can-do attitude, and when I'm not coding, you'll find me lost\r\n          in a good book, strumming the guitar, or impressing people with my\r\n          Rubik's Cube skills. So Let's create something amazing together!\r\n        </h4>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+/* About Styles */
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.developer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.developer-info h4 {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.developer-info img {
+  height: 300px;
+  width: 300px;
+}

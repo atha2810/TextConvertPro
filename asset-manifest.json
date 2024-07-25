@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TextConvertPro/static/css/main.73575122.css",
-    "main.js": "/TextConvertPro/static/js/main.1e0b5095.js",
+    "main.js": "/TextConvertPro/static/js/main.9f5b34ac.js",
     "static/js/787.28cb0dcd.chunk.js": "/TextConvertPro/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile.jpg": "/TextConvertPro/static/media/profile.7e7aa2cc6d6f9b61055d.jpg",
     "index.html": "/TextConvertPro/index.html",
     "main.73575122.css.map": "/TextConvertPro/static/css/main.73575122.css.map",
-    "main.1e0b5095.js.map": "/TextConvertPro/static/js/main.1e0b5095.js.map",
+    "main.9f5b34ac.js.map": "/TextConvertPro/static/js/main.9f5b34ac.js.map",
     "787.28cb0dcd.chunk.js.map": "/TextConvertPro/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73575122.css",
-    "static/js/main.1e0b5095.js"
+    "static/js/main.9f5b34ac.js"
   ]
 }
